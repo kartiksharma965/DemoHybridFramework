@@ -34,7 +34,10 @@ public class AccountPage extends BasePage {
 	}
 
 	public boolean getDisplayStatusOfaccountHeadingAfterValidLogin() {
-		boolean displayStaus=myAccountMsgHeading.isDisplayed();
-		return displayStaus;
+		try {
+			return (myAccountMsgHeading.isDisplayed());
+		} catch (Exception e) {
+			return (false);
+		}
 	}
 }

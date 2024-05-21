@@ -61,7 +61,6 @@ public class LoginTest_DDT2 extends BaseTest {
 		
 		if(status.equalsIgnoreCase("invalid"))
 		{
-			{
 				if(targetPage==true)
 				{
 					accountPage.clickOnLogout();
@@ -71,7 +70,7 @@ public class LoginTest_DDT2 extends BaseTest {
 				{
 					Assert.assertTrue(true);
 				}
-			}
+			
 		}
 		}
 		catch(Exception e)

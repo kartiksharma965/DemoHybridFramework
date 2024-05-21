@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.DemoHybridFramework.qa.utils.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.DemoHybridFramework.qa.testCases.SearchTest">
+        <methods>
+          <include name="verifySearchWithValidProduct"/>
+          <include name="verifySearchWithInValidProduct"/>
+          <include name="verifySearchWithoutAnyProduct"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.DemoHybridFramework.qa.testCases.SearchTest -->
+      <class name="com.DemoHybridFramework.qa.testCases.LoginTest_DDT">
+        <methods>
+          <include name="Login_valid_DDT"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.DemoHybridFramework.qa.testCases.LoginTest_DDT -->
+      <class name="com.DemoHybridFramework.qa.testCases.LoginTest_DDT2">
+        <methods>
+          <include name="Login_valid_invalid_DDT"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.DemoHybridFramework.qa.testCases.LoginTest_DDT2 -->
+      <class name="com.DemoHybridFramework.qa.testCases.LoginTest">
+        <methods>
+          <include name="verifyLoginWithInValidCredentials"/>
+          <include name="setUp"/>
+          <include name="verifyLoginWithValidEmailAndValidPassword"/>
+          <include name="verifyLogWithoutProvidingCredentials"/>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginWithInValidEmailAndValidPassword"/>
+        </methods>
+      </class> <!-- com.DemoHybridFramework.qa.testCases.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

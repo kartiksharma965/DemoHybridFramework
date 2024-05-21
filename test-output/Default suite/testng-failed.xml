@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.DemoHybridFramework.qa.testCases.LoginTest">
+      <class name="com.DemoHybridFramework.qa.testCases.LoginTest_DDT2">
         <methods>
-          <include name="setUp"/>
-          <include name="verifyLoginWithInValidCredentials"/>
-          <include name="verifyLoginWithValidEmailAndValidPassword"/>
-          <include name="verifyLogWithoutProvidingCredentials"/>
+          <include name="Login_valid_invalid_DDT" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="verifyLoginWithValidCredentials"/>
-          <include name="verifyLoginWithInValidEmailAndValidPassword"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.DemoHybridFramework.qa.testCases.LoginTest -->
+      </class> <!-- com.DemoHybridFramework.qa.testCases.LoginTest_DDT2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
