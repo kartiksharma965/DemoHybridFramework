@@ -1,0 +1,10 @@
+com\DemoHybridFramework\qa\testCases\LoginTest_DDT2.class
+com\DemoHybridFramework\qa\testCases\LoginTest.class
+com\DemoHybridFramework\qa\utils\ExcelReader.class
+com\DemoHybridFramework\qa\testCases\LoginTest_DDT2a.class
+com\DemoHybridFramework\qa\testCases\SearchTest.class
+com\DemoHybridFramework\qa\baseTest\BaseTest.class
+com\DemoHybridFramework\qa\utils\DataUtil.class
+com\DemoHybridFramework\qa\testCases\LoginTest_DDT.class
+com\DemoHybridFramework\qa\testCases\RegisterTest.class
+com\DemoHybridFramework\qa\utils\ExtentReportManager.class

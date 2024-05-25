@@ -6,6 +6,7 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.DemoHybridFramework.qa.testCases.RegisterTest"/>
       <class name="com.DemoHybridFramework.qa.testCases.SearchTest"/>
       <class name="com.DemoHybridFramework.qa.testCases.LoginTest"/>
       <class name="com.DemoHybridFramework.qa.testCases.LoginTest_DDT"/>

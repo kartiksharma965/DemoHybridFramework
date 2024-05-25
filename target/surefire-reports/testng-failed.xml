@@ -6,40 +6,50 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
+      <class name="com.DemoHybridFramework.qa.testCases.RegisterTest">
+        <methods>
+          <include name="VerifyRegisteringAccountWithExistingEamilAddress"/>
+          <include name="VerifyRegisteringAccountWithoutFillingAnydetails"/>
+          <include name="setUp"/>
+          <include name="verifyRegisteringAccountWithMandatoryFields"/>
+          <include name="tearDown"/>
+          <include name="verifyRegisterAccountByProvidingAllFields"/>
+        </methods>
+      </class> <!-- com.DemoHybridFramework.qa.testCases.RegisterTest -->
       <class name="com.DemoHybridFramework.qa.testCases.SearchTest">
         <methods>
-          <include name="verifySearchWithValidProduct"/>
           <include name="verifySearchWithInValidProduct"/>
-          <include name="verifySearchWithoutAnyProduct"/>
+          <include name="verifySearchWithValidProduct"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="verifySearchWithoutAnyProduct"/>
         </methods>
       </class> <!-- com.DemoHybridFramework.qa.testCases.SearchTest -->
-      <class name="com.DemoHybridFramework.qa.testCases.LoginTest_DDT">
-        <methods>
-          <include name="Login_valid_DDT"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.DemoHybridFramework.qa.testCases.LoginTest_DDT -->
       <class name="com.DemoHybridFramework.qa.testCases.LoginTest_DDT2">
         <methods>
           <include name="Login_valid_invalid_DDT"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.DemoHybridFramework.qa.testCases.LoginTest_DDT2 -->
       <class name="com.DemoHybridFramework.qa.testCases.LoginTest">
         <methods>
-          <include name="verifyLoginWithInValidCredentials"/>
           <include name="setUp"/>
+          <include name="verifyLoginWithInValidEmailAndValidPassword"/>
           <include name="verifyLoginWithValidEmailAndValidPassword"/>
+          <include name="tearDown"/>
           <include name="verifyLogWithoutProvidingCredentials"/>
           <include name="verifyLoginWithValidCredentials"/>
-          <include name="tearDown"/>
-          <include name="verifyLoginWithInValidEmailAndValidPassword"/>
+          <include name="verifyLoginWithInValidCredentials"/>
         </methods>
       </class> <!-- com.DemoHybridFramework.qa.testCases.LoginTest -->
+      <class name="com.DemoHybridFramework.qa.testCases.LoginTest_DDT">
+        <methods>
+          <include name="Login_valid_DDT"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.DemoHybridFramework.qa.testCases.LoginTest_DDT -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

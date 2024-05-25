@@ -1,0 +1,8 @@
+com\DemoHybridFramework\qa\pageObject\HomePage.class
+com\DemoHybridFramework\qa\pageObject\LoginPage.class
+com\DemoHybridFramework\qa\pageObject\AccountSuccessPage.class
+com\DemoHybridFramework\qa\pageObject\BasePage.class
+com\DemoHybridFramework\qa\pageObject\AccountPage.class
+com\DemoHybridFramework\qa\pageObject\RegisterPage.class
+com\DemoHybridFramework\qa\pageObject\SearchPage.class
+com\DemoHybridFramework\qa\utils\Utilities.class
